@@ -1,6 +1,6 @@
 {
-    "name": "Dapp",
-    "short_name": "Dapp",
+    "name": "Flutter Solidity",
+    "short_name": "Flutter Solidity",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
