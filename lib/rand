@@ -1,0 +1,33 @@
+ /*  final credentials = EthPrivateKey.fromHex(
+      '12889a81fab17152a1b3374e973edfd288a226cbc7745b63543b7c0e02e47355');
+
+  var object = {
+    'privateKey':
+        '12889a81fab17152a1b3374e973edfd288a226cbc7745b63543b7c0e02e47355',
+    'address': credentials.address.hex,
+  };
+
+  final balance = await ethClient.getBalance(credentials.address);
+  print(balance.getValueInUnit(EtherUnit.ether));
+
+  final res = await ethClient.sendTransaction(
+    credentials,
+    Transaction(
+      to: EthereumAddress.fromHex('0xBF0F2D8FD1A8089179b5B328678111BC7FB93cDa'),
+      gasPrice: EtherAmount.inWei(BigInt.one),
+      value: EtherAmount.fromUnitAndValue(EtherUnit.ether, 15),
+    ),
+  );
+  print(res);
+  print(balance.getValueInUnit(EtherUnit.ether)); */
+
+    /* final ethClient = Web3Client(
+    'https://ropsten.infura.io/v3/148f7fe493a7491591c234f338e601be',
+    httpClient,
+    socketConnector: () {
+      return IOWebSocketChannel.connect(
+              'wss://ropsten.infura.io/ws/v3/148f7fe493a7491591c234f338e601be')
+          .cast<String>();
+    },
+  ); */
+ 

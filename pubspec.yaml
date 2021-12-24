@@ -1,0 +1,58 @@
+name: flutter_solidity
+description: A new Flutter project.
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  flutter_secure_storage: ^5.0.2
+  intl: ^0.17.0
+  http: ^0.13.4
+  web_socket_channel: ^2.1.0
+
+  # Web3
+  flutter_web3: ^2.1.6
+  wallet_core:
+    path: ../wallet_core
+  web3dart: ^2.3.2
+  encrypt: ^5.0.1
+
+  equatable: ^2.0.3
+  hooks_riverpod: ^1.0.0
+  logger: ^1.1.0
+  page_transition: ^2.0.4
+  dartz: ^0.10.0
+  dio: ^4.0.3
+  flash: ^2.0.3
+  flutter_svg: ^0.23.0+1
+  gap: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mocktail: ^0.1.0
+  very_good_analysis: ^2.1.0
+
+flutter:
+  uses-material-design: true
+  generate: true
+  assets:
+    - assets/images/svg/
+    - assets/images/png/
+
+  fonts:
+    - family: Sk-Modernist
+      fonts:
+        - asset: assets/fonts/Sk-Modernist.ttf
+    - family: Sk-Modernist-Mono
+      fonts:
+        - asset: assets/fonts/Sk-Modernist-Mono.otf
+    - family: Sk-Modernist-Bold
+      fonts:
+        - asset: assets/fonts/Sk-Modernist-Bold.otf
